@@ -45,8 +45,8 @@ email: sangwookchn@gmail.com
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
-title: Sangwook's
-description: One-stop website for non-stop learning
+title: SWC
+description: Sangwook's one-stop website for non-stop learning
 url: ""
 baseurl: ""
 twitter_username:
@@ -54,7 +54,7 @@ default_img:
 
 # Profile settings
 name: Sangwook Cheon
-profile_img: 'SangwookCpic.jpg'
+profile_img: 'SangwookCpic (1).jpg'
 profile: I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.
 social:
   github: "https://github.com/SangwookCheon"
