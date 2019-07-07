@@ -1,41 +1,89 @@
-# Welcome to Jekyll!
+# # Welcome to Jekyll!
+# #
+# # This config file is meant for settings that affect your whole blog, values
+# # which you are expected to set up once and rarely edit after that. If you find
+# # yourself editing this file very often, consider using Jekyll's data files
+# # feature for the data you need to update frequently.
+# #
+# # For technical reasons, this file is *NOT* reloaded automatically when you use
+# # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# # Site settings
+# # These are used to personalize your new site. If you look in the HTML files,
+# # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# # You can create any custom variable you would like, and they will be accessible
+# # in the templates via {{ site.myvariable }}.
+# title: Sangwook Cheon
+# email: sangwookchn@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   One-stop documentation for non-stop exploration of Data Science, Machine Learning, and more.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# # twitter_username:
+# github_username:  sangwookcheon
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# # Build settings
+# markdown: kramdown
+# theme: minima
+# plugins:
+#   - jekyll-feed
+#
+# # Exclude from processing.
+# # The following items will not be processed, by default. Create a custom list
+# # to override the default setting.
+# # exclude:
+# #   - Gemfile
+# #   - Gemfile.lock
+# #   - node_modules
+# #   - vendor/bundle/
+# #   - vendor/cache/
+# #   - vendor/gems/
+# #   - vendor/ruby/
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Sangwook Cheon
+# Site/SEO settings
 email: sangwookchn@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  One-stop documentation for non-stop exploration of Data Science, Machine Learning, and more.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  sangwookcheon
+permalink: /:year/:month/:day/:title/
+google_analytics:
+
+title: Sangwook Cheon
+description: One-stop website for non-stop learning
+url: ""
+baseurl: ""
+twitter_username:
+default_img:
+
+# Profile settings
+name: Sangwook Cheon
+profile_img:
+profile:
+social:
+  github: "https://github.com/SangwookCheon"
+  kaggle: "https://www.kaggle.com/sangwookchn"
+  linkedin: "https://www.linkedin.com/in/sangwookcheon/"
+  medium: "https://medium.com/@sangwookcheon"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - octopress-autoprefixer
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - _screenshots
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Pagination
+paginate: 7
+paginate_path: "/blog/page-:num"
+
+# Sass
+sass:
+  style: compressed
