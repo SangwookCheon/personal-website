@@ -45,7 +45,7 @@ email: sangwookchn@gmail.com
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
-title: Sangwook Cheon
+title: Sangwook's
 description: One-stop website for non-stop learning
 url: ""
 baseurl: ""
@@ -58,9 +58,9 @@ profile_img:
 profile:
 social:
   github: "https://github.com/SangwookCheon"
-  kaggle: "https://www.kaggle.com/sangwookchn"
   linkedin: "https://www.linkedin.com/in/sangwookcheon/"
   medium: "https://medium.com/@sangwookcheon"
+  kaggle: "https://www.kaggle.com/sangwookchn"
 
 # Build settings
 markdown: kramdown
@@ -81,7 +81,7 @@ exclude:
   - README.md
 
 # Pagination
-paginate: 7
+paginate: 5
 paginate_path: "/blog/page-:num"
 
 # Sass

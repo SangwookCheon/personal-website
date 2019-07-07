@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sangwook Cheon</title>
+    <title>Sangwook's</title>
     <description>One-stop website for non-stop learning</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jul 2019 12:35:09 +0700</pubDate>
-    <lastBuildDate>Sun, 07 Jul 2019 12:35:09 +0700</lastBuildDate>
+    <pubDate>Sun, 07 Jul 2019 15:38:08 +0700</pubDate>
+    <lastBuildDate>Sun, 07 Jul 2019 15:38:08 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Sample</title>
+        <description>&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
+
+&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size, color,
+and firmness, but is usually elongated and curved, with soft flesh rich in
+starch covered with a rind, which may be green, yellow, red, purple, or brown
+when ripe.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2016/02/19/sample/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/19/sample/</guid>
+        
+        
+        <category>Sample 1</category>
+        
+      </item>
     
   </channel>
 </rss>
