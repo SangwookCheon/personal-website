@@ -50,24 +50,24 @@ description: Sangwook's one-stop website for non-stop learning
 url: ""
 baseurl: ""
 twitter_username:
-default_img:
+default_img: https://images.unsplash.com/photo-1549317336-206569e8475c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
 
 # Profile settings
 name: Sangwook Cheon
-profile_img: 'SangwookCpic (1).jpg'
+profile_img: https://github.com/SangwookCheon/sangwookcheon.github.io/blob/master/SangwookCpic%20(1).png?raw=true
 profile: I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.
 social:
   github: "https://github.com/SangwookCheon"
   linkedin: "https://www.linkedin.com/in/sangwookcheon/"
   medium: "https://medium.com/@sangwookcheon"
-  kaggle: "https://www.kaggle.com/sangwookchn"
+  # kaggle: "https://www.kaggle.com/sangwookchn"
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - octopress-autoprefixer
+  # - octopress-autoprefixer
 compress_html:
   clippings: all
   comments: all

@@ -2,12 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SWC</title>
-    <description>One-stop website for non-stop learning</description>
+    <description>Sangwook's one-stop website for non-stop learning</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jul 2019 21:48:01 +0700</pubDate>
-    <lastBuildDate>Sun, 07 Jul 2019 21:48:01 +0700</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2019 00:25:00 +0700</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2019 00:25:00 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Sample-1</title>
+        <description>&lt;p&gt;Hello!&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is the thing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Code snippet:
+&lt;script src=&quot;https://gist.github.com/SangwookCheon/4ae0a12bff175c665cd13909d890e9f9.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;When you &lt;code class=&quot;highlighter-rouge&quot;&gt;go there there&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1531993268000-a3fc2af2e9a9?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=60&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hello&quot;&gt;hello&lt;/h2&gt;
+&lt;h3 id=&quot;hello-1&quot;&gt;Hello&lt;/h3&gt;
+
+&lt;p&gt;[
+Hello
+]&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2016/02/19/Sample2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/19/Sample2/</guid>
+        
+        
+        <category>Sample4</category>
+        
+      </item>
     
       <item>
         <title>Sample-1</title>
