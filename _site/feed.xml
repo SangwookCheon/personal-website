@@ -5,8 +5,8 @@
     <description>Sangwook's one-stop website for non-stop learning</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jul 2019 23:38:17 +0700</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2019 23:38:17 +0700</lastBuildDate>
+    <pubDate>Tue, 09 Jul 2019 00:00:34 +0700</pubDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:34 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -33,6 +33,74 @@ of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
         <pubDate>Tue, 19 Feb 2019 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2019/02/19/sample3/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/02/19/sample3/</guid>
+        
+        
+        <category>Sample-categi</category>
+        
+      </item>
+    
+      <item>
+        <title>Sample-20</title>
+        <description>&lt;p&gt;Hello!&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is the thing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Code snippet:
+&lt;script src=&quot;https://gist.github.com/SangwookCheon/4ae0a12bff175c665cd13909d890e9f9.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;When you &lt;code class=&quot;highlighter-rouge&quot;&gt;go there there&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1531993268000-a3fc2af2e9a9?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=60&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hello&quot;&gt;hello&lt;/h2&gt;
+&lt;h3 id=&quot;hello-1&quot;&gt;Hello&lt;/h3&gt;
+
+&lt;p&gt;[
+Hello
+]&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Apr 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2016/04/18/Sample20/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/18/Sample20/</guid>
+        
+        
+        <category>Personal</category>
+        
+      </item>
+    
+      <item>
+        <title>Sample-20</title>
+        <description>&lt;p&gt;Hello!&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is the thing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Code snippet:
+&lt;script src=&quot;https://gist.github.com/SangwookCheon/4ae0a12bff175c665cd13909d890e9f9.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;When you &lt;code class=&quot;highlighter-rouge&quot;&gt;go there there&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1531993268000-a3fc2af2e9a9?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=60&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hello&quot;&gt;hello&lt;/h2&gt;
+&lt;h3 id=&quot;hello-1&quot;&gt;Hello&lt;/h3&gt;
+
+&lt;p&gt;[
+Hello
+]&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2016/02/19/Sample21/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/19/Sample21/</guid>
         
         
         <category>Sample-categi</category>
@@ -75,7 +143,8 @@ Hello
     
       <item>
         <title>Sample project name can be this long and complicated, but don't worry about it</title>
-        <description>&lt;h1 id=&quot;h1-lskdjf&quot;&gt;H1 lskdjf&lt;/h1&gt;
+        <description>&lt;p&gt;CHanged a bit.&lt;/p&gt;
+&lt;h1 id=&quot;h1-lskdjf&quot;&gt;H1 lskdjf&lt;/h1&gt;
 &lt;p&gt;A banana is an edible frui&lt;/p&gt;
 &lt;h2 id=&quot;h2-sdfsdf&quot;&gt;H2 sdfsdf&lt;/h2&gt;
 &lt;p&gt;A banana is an edible frui&lt;/p&gt;
