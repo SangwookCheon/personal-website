@@ -1,0 +1,189 @@
+<!DOCTYPE html><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SWC</title><meta name="author" content="Sangwook Cheon"><meta name="description" content="Sangwook's one-stop website for non-stop learning"><meta property="og:title" content="SWC"><meta property="og:url" content="http://localhost:4000/particle_styles/"><meta property="og:site_name" content="SWC"><meta property="og:description" content="Sangwook's one-stop website for non-stop learning"><meta property="og:image" content="https://github.com/SangwookCheon/pictures/blob/master/IMG-0145.jpg?raw=true"><meta property="og:type" content="blog"><meta name="twitter:card" content="summary"><meta name="twitter:description" content="Sangwook's one-stop website for non-stop learning"><meta name="twitter:title" content="SWC"><meta name="twitter:url" content="http://localhost:4000/particle_styles/"><meta name="twitter:site" content="SWC"><meta name="twitter:creator" content="@"><meta name="twitter:domain" content="http://localhost:4000"><meta property="twitter:image" content="https://github.com/SangwookCheon/pictures/blob/master/IMG-0145.jpg?raw=true"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css"><link rel="stylesheet" href="/assets/css/main.css"><link rel="alternate" type="application/rss+xml" title="SWC" href="http://localhost:4000/feed.xml"><link rel="canonical" href="http://localhost:4000/particle_styles/"></head><main><article><header><h1></h1></header><div><p>particle colors - [“#9C27B0”, “#2196F3”, “#4CAF50”, “#FFEB3B”, “#FF9800”, “#E91E63”]</p><h1 id="colorful-bubbles-and-grab">Colorful, Bubbles and grab</h1><p>{ “particles”: { “number”: { “value”: 70, “density”: { “enable”: true, “value_area”: 800 } }, “color”: { “value”: “random”</p><div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>},
+"shape": {
+  "type": "circle",
+  "stroke": {
+    "width": 0,
+    "color": "#000000"
+  },
+  "polygon": {
+    "nb_sides": 15
+  },
+  "image": {
+    "src": "img/github.svg",
+    "width": 100,
+    "height": 100
+  }
+},
+"opacity": {
+  "value": 0.87,
+  "random": false,
+  "anim": {
+    "enable": false,
+    "speed": 1,
+    "opacity_min": 0.15,
+    "sync": false
+  }
+},
+"size": {
+  "value": 3,
+  "random": false,
+  "anim": {
+    "enable": true,
+    "speed": 2,
+    "size_min": 1.5,
+    "sync": false
+  }
+},
+"line_linked": {
+  "enable": true,
+  "distance": 100,
+  "color": "#FFFFFF",
+  "opacity": 1,
+  "width": 1.8
+},
+"move": {
+  "enable": true,
+  "speed": 5,
+  "direction": "none",
+  "random": true,
+  "straight": false,
+  "out_mode": "out",
+  "bounce": false,
+  "attract": {
+    "enable": false,
+    "rotateX": 600,
+    "rotateY": 1200
+  }
+}   },   "interactivity": {
+"detect_on": "canvas",
+"events": {
+  "onhover": {
+    "enable": true,
+    "mode": ["grab", "bubble"]
+  },
+  "onclick": {
+    "enable": true,
+    "mode": "push"
+  },
+  "resize": true
+},
+"modes": {
+  "grab": {
+    "distance": 200,
+    "line_linked": {
+      "opacity": 1
+    }
+  },
+  "bubble": {
+    "distance": 200,
+    "size": 20,
+    "duration": 2,
+    "opacity": 8,
+    "speed": 3
+  },
+  "repulse": {
+    "distance": 100,
+    "duration": 0.4
+  },
+  "push": {
+    "particles_nb": 4
+  },
+  "remove": {
+    "particles_nb": 2
+  }
+}   },   "retina_detect": true }
+</code></pre></div></div><h1 id="nasa-style--bubbles">NASA Style – Bubbles</h1><p>{ “particles”: { “number”: { “value”: 200, “density”: { “enable”: true, “value_area”: 800 } }, “color”: { “value”: “#ffffff”</p><div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>},
+"shape": {
+  "type": "circle",
+  "stroke": {
+    "width": 0,
+    "color": "#000000"
+  },
+  "polygon": {
+    "nb_sides": 5
+  },
+  "image": {
+    "src": "img/github.svg",
+    "width": 100,
+    "height": 100
+  }
+},
+"opacity": {
+  "value": 1,
+  "random": true,
+  "anim": {
+    "enable": true,
+    "speed": 1,
+    "opacity_min": 0,
+    "sync": false
+  }
+},
+"size": {
+  "value": 7,
+  "random": true,
+  "anim": {
+    "enable": false,
+    "speed": 4,
+    "size_min": 1,
+    "sync": false
+  }
+},
+"line_linked": {
+  "enable": false,
+  "distance": 150,
+  "color": "#FFFFFF",
+  "opacity": 0.4,
+  "width": 1
+},
+"move": {
+  "enable": true,
+  "speed": 2,
+  "direction": "none",
+  "random": true,
+  "straight": false,
+  "out_mode": "out",
+  "bounce": false,
+  "attract": {
+    "enable": false,
+    "rotateX": 600,
+    "rotateY": 600
+  }
+}   },   "interactivity": {
+"detect_on": "canvas",
+"events": {
+  "onhover": {
+    "enable": true,
+    "mode": ["bubble"]
+  },
+  "onclick": {
+    "enable": true,
+    "mode": "repulse"
+  },
+  "resize": true
+},
+"modes": {
+  "grab": {
+    "distance": 200,
+    "line_linked": {
+      "opacity": 1
+    }
+  },
+  "bubble": {
+    "distance": 250,
+    "size": 0,
+    "duration": 2,
+    "opacity": 0,
+    "speed": 3
+  },
+  "repulse": {
+    "distance": 300,
+    "duration": 0.4
+  },
+  "push": {
+    "particles_nb": 4
+  },
+  "remove": {
+    "particles_nb": 2
+  }
+}   },   "retina_detect": true }
+</code></pre></div></div><h1 id="snow-effect">Snow effect</h1><p>{ “particles”: { “number”: { “value”: 400, “density”: { “enable”: true, “value_area”: 800 } }, “color”: { “value”: “#fff” }, “shape”: { “type”: “circle”, “stroke”: { “width”: 0, “color”: “#000000” }, “polygon”: { “nb_sides”: 5 }, “image”: { “src”: “img/github.svg”, “width”: 100, “height”: 100 } }, “opacity”: { “value”: 0.5, “random”: true, “anim”: { “enable”: false, “speed”: 1, “opacity_min”: 0.1, “sync”: false } }, “size”: { “value”: 10, “random”: true, “anim”: { “enable”: false, “speed”: 40, “size_min”: 0.1, “sync”: false } }, “line_linked”: { “enable”: false, “distance”: 500, “color”: “#ffffff”, “opacity”: 0.4, “width”: 2 }, “move”: { “enable”: true, “speed”: 6, “direction”: “bottom”, “random”: false, “straight”: false, “out_mode”: “out”, “bounce”: false, “attract”: { “enable”: false, “rotateX”: 600, “rotateY”: 1200 } } }, “interactivity”: { “detect_on”: “canvas”, “events”: { “onhover”: { “enable”: true, “mode”: “bubble” }, “onclick”: { “enable”: true, “mode”: “repulse” }, “resize”: true }, “modes”: { “grab”: { “distance”: 400, “line_linked”: { “opacity”: 0.5 } }, “bubble”: { “distance”: 400, “size”: 4, “duration”: 0.3, “opacity”: 1, “speed”: 3 }, “repulse”: { “distance”: 200, “duration”: 0.4 }, “push”: { “particles_nb”: 4 }, “remove”: { “particles_nb”: 2 } } }, “retina_detect”: true }</p><p>#Nyan cat effect { “particles”: { “number”: { “value”: 100, “density”: { “enable”: false, “value_area”: 800 } }, “color”: { “value”: “#ffffff” }, “shape”: { “type”: “star”, “stroke”: { “width”: 0, “color”: “#000000” }, “polygon”: { “nb_sides”: 5 }, “image”: { “src”: “http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg”, “width”: 100, “height”: 100 } }, “opacity”: { “value”: 0.5, “random”: false, “anim”: { “enable”: false, “speed”: 1, “opacity_min”: 0.1, “sync”: false } }, “size”: { “value”: 4, “random”: true, “anim”: { “enable”: false, “speed”: 40, “size_min”: 0.1, “sync”: false } }, “line_linked”: { “enable”: false, “distance”: 150, “color”: “#ffffff”, “opacity”: 0.4, “width”: 1 }, “move”: { “enable”: true, “speed”: 14, “direction”: “left”, “random”: false, “straight”: true, “out_mode”: “out”, “bounce”: false, “attract”: { “enable”: false, “rotateX”: 600, “rotateY”: 1200 } } }, “interactivity”: { “detect_on”: “canvas”, “events”: { “onhover”: { “enable”: false, “mode”: “grab” }, “onclick”: { “enable”: true, “mode”: “repulse” }, “resize”: true }, “modes”: { “grab”: { “distance”: 200, “line_linked”: { “opacity”: 1 } }, “bubble”: { “distance”: 400, “size”: 40, “duration”: 2, “opacity”: 8, “speed”: 3 }, “repulse”: { “distance”: 200, “duration”: 0.4 }, “push”: { “particles_nb”: 4 }, “remove”: { “particles_nb”: 2 } } }, “retina_detect”: true }</p></div></article></main><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script> <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <script> particlesJS.load('particles-js', "/assets/js/particles.json", function() { console.log('callback - particles.js config loaded'); }); </script> <script type="text/javascript" src="/assets/js/app.js"></script></body></html>
