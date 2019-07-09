@@ -3,12 +3,12 @@
  */
 $font-header: 'Space Mono', monospace;
 $font-body: 'Inconsolata', monospace;
-$font-post: 'Lora', serif;
+$font-post: 'messinasans', sans-serif;
 
-$color-alpha: #9f8f68;
+$color-alpha: #F59835;
 $color-alpha--light: #f5f3ef;
 
-$color-black: #0a0a0a;
+$color-black: #1B2A3D;
 $color-grey: #f8f9f9;
 $color-white: #fff;
 
@@ -74,6 +74,12 @@ h1 {
   @media (min-width: $mq-xl) {
     font-size: $fontSize + 0.5em;
   }
+}
+
+mark {
+  background-color: $color-alpha;
+  color: $color-black;
+  padding: 5px
 }
 
 h2 {
