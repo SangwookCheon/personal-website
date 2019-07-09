@@ -73,8 +73,8 @@ layout: default
     </a>
     <div class='centered'>
     <span style="color:#ffffff"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
-    <h1 style="font-family: messinasans, sans-serif;color:#ffffff" itemprop="name headline">{{ page.title }}</h1>
-    <h1 style="font-family: messinasans, sans-serif; color:#F59835" itemprop="name headline">By Sangwook Cheon</h1>
+    <h1 style="font-family: $font-header;color:#ffffff" itemprop="name headline">{{ page.title }}</h1>
+    <h1 style="font-family: $font-header; color:#F59835" itemprop="name headline">By Sangwook Cheon</h1>
     {% if page.categories.size > 0 %}
       <span style="color:#ffffff">Posted in
         {% for category in page.categories %}
