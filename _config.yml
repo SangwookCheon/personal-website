@@ -47,8 +47,8 @@ google_analytics:
 
 title: SWC
 description: Sangwook's one-stop website for non-stop learning
-url: 
-baseurl: "/sangwookcheon.github.io"
+url: "https://sangwookcheon.github.io"
+baseurl: 
 twitter_username:
 default_img: https://github.com/SangwookCheon/pictures/blob/master/IMG-0145.jpg?raw=true
 
