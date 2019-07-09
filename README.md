@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages - Sangwook
+# sangwookcheon.github.io
+One-stop website for non-stop learning - Personal portfolio made with Jekyll using [Trophy theme](https://github.com/thomasvaeth/trophy-jekyll).
 
-You can use the [editor on GitHub](https://github.com/SangwookCheon/sangwookcheon.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Features
+This portfolio is built on top of [Trophy theme](https://github.com/thomasvaeth/trophy-jekyll). Adding on to its basic structure, I customized many of the features:
+* Changing the layout of the image of each post
+  - Full-page image and centered title and descriptions
+  - Addition of Particles.js onto the image
+* Adding "About Me" tab introducing myself
+* Changing color scheme of the pages
+* Addition of custom Google Fonts
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Trophy theme is originally not 100% supported by Github pages, most likely because of a plugin that is not whitelisted by Github 
 
-### Markdown
+### What I hope to do next:
+If possible, I want to add another tab named "Projects," where I  can put all my Data Science projects into one place, separated from regular blog posts. Each project will be one card with name and link to the project. Each project will have its own dedicated blog post.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SangwookCheon/sangwookcheon.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I want to put my profile image shown in "About Me" tab into the left pane, so that I can write text only in the right pane. This is surprisingly more challenging than I thought, because the styling structure is quite complicated, and it is hard to know how they are styled
