@@ -15,6 +15,37 @@ layout: default
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    .down {
+    color: #FFF;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    .icon {
+        position: absolute;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+        fill: #fff;
+        -webkit-animation: pulse 1.3s infinite;
+        animation: pulse 1.3s infinite;
+        &:hover {
+          color: $sec;
+        }
+        &:active {
+          color: $sec;
+        }
+    }
   }
 
 </style>
@@ -41,6 +72,7 @@ layout: default
     {% endif %}
     <span></span>
   </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
   <!-- <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure> -->
   </header>
   </div>

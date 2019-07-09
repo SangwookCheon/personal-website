@@ -1,12 +1,12 @@
 {
-  "name": "particle",
+  "name": "sangwookcheon.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
-  "author": "Nathan Randecker",
+  "author": "Sangwook Cheon",
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.26.3",
