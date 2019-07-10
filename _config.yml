@@ -46,7 +46,7 @@ permalink: /:year/:month/:day/:title/
 google_analytics:
 
 title: SWC
-description: Sangwook's one-stop website for non-stop learning
+description: N(one)-Stop Data Science
 url: "https://sangwookcheon.github.io"
 baseurl:
 twitter_username:
@@ -55,7 +55,7 @@ JEKYLL_ENV: production
 
 # Profile settings
 name: Sangwook Cheon
-profile_img: /images/SangwookCpic (1).png
+profile_img: /images/SangwookCpic.png
 profile: I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.
 social:
   github: "https://github.com/SangwookCheon"
