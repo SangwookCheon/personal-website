@@ -96,6 +96,8 @@ layout: default
     <hr id="post">
       {{ content }}
 
+      {% include disqus.html %}
+
     </div>
   </section>
 
@@ -120,7 +122,6 @@ layout: default
       </div>
     </div>
   </section>
-  {% include disqus.html %}
 </article>
 
 {% if page.previous.url %}
