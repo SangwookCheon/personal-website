@@ -11,13 +11,13 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/category/learn-ds/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/category/personal/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/category/sample-categi/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/category/sample2/</loc>
+<loc>http://localhost:4000/category/projects/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about_me/</loc>

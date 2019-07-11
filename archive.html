@@ -24,7 +24,7 @@ permalink: /archive/
             {% endif %}
           </div>
           <div class="card__container">
-            <h2 class="card__header" itemprop="name">{{ post.title }}</h2>
+            <h2 style="color:#A31F34;" class="card__header" itemprop="name">{{ post.title }}</h2>
             <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
               {{ post.date | date: "%b %-d, %Y" }}
               {% if post.categories.size > 0 %}
