@@ -50,7 +50,7 @@ description: N(one)-Stop Data Science
 url: "https://sangwookcheon.github.io"
 baseurl:
 twitter_username:
-default_img: /images/IMG-0145.jpg
+default_img: favicon.ico
 JEKYLL_ENV: production
 
 # Profile settings
