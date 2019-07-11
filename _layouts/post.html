@@ -5,6 +5,7 @@ layout: default
   #particles-js {
     width: 100%;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     background-image: url('{{ page.image }}');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +15,8 @@ layout: default
         height: var(--app-height);
     }
   }
+
+
   .centered {
     position: absolute;
     top: 50%;

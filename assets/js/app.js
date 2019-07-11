@@ -16,7 +16,7 @@ var Tabs = (function() {
     display: function() {
       if (s.tab.length) {
         [].forEach.call(s.tab, function(tab, idx) {
-          if (idx > 0) tab.style.display = 'none';          
+          if (idx > 0) tab.style.display = 'none';
         });
         s.tab[0].classList.add('active');
         s.tabs[0].classList.add('active');
@@ -103,4 +103,16 @@ document.addEventListener('DOMContentLoaded', function() {
   Tabs.init();
   Preview.init();
   wow.init();
+});
+
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
