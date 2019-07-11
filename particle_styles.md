@@ -1,7 +1,7 @@
 particle colors - ["#9C27B0", "#2196F3", "#4CAF50", "#FFEB3B", "#FF9800", "#E91E63"]
 
 
-# Colorful, Bubbles and grab
+# Style 1: Colorful, Bubbles and grab
 {
   "particles": {
     "number": {
@@ -115,7 +115,7 @@ particle colors - ["#9C27B0", "#2196F3", "#4CAF50", "#FFEB3B", "#FF9800", "#E91E
 }
 
 
-# NASA Style -- Bubbles
+# Style 2: NASA Style -- Bubbles
 {
   "particles": {
     "number": {
@@ -229,7 +229,7 @@ particle colors - ["#9C27B0", "#2196F3", "#4CAF50", "#FFEB3B", "#FF9800", "#E91E
 }
 
 
-# Snow effect
+# Style 3: Snow effect
 {
   "particles": {
     "number": {
@@ -341,7 +341,7 @@ particle colors - ["#9C27B0", "#2196F3", "#4CAF50", "#FFEB3B", "#FF9800", "#E91E
   "retina_detect": true
 }
 
-#Nyan cat effect
+# Style 4: Nyan cat effect
 {
   "particles": {
     "number": {

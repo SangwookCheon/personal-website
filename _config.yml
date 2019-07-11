@@ -45,7 +45,7 @@ email: sangwookchn@gmail.com
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
-title: SWC
+title: SWC - Data Science
 description: N(one)-Stop Data Science
 url: "https://sangwookcheon.github.io"
 baseurl:
@@ -56,7 +56,7 @@ JEKYLL_ENV: production
 # Profile settings
 name: Sangwook Cheon
 profile_img: /images/SangwookCpic.png
-profile: I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning. I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.I live up for Machiine Learning.
+profile: My name is Sangwook Cheon, a high school student at Jakarta Intercultural School. After tinkering with various branches of technology, I discovered that I am most passionate about data. All kinds of data, from so well-known to absolutely obscure. I work with Python to extract and interact with numbers, texts, images, audio, and more to come soon.
 social:
   github: "https://github.com/SangwookCheon"
   linkedin: "https://www.linkedin.com/in/sangwookcheon/"
@@ -73,7 +73,7 @@ compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
-include: ["_categories", "_projects"]
+include: ["_categories"]
 exclude:
   - _screenshots
   - .DS_Store
@@ -83,7 +83,7 @@ exclude:
   - README.md
 
 # Pagination
-paginate: 5
+paginate: 7
 paginate_path: "/blog/page-:num"
 
 # Sass
