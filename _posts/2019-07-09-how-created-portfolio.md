@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "How I Created my own Personal Portfolio How I Created my ow"
+title: "How I Created my own Personal Portfolio"
 date: 2019-07-09
 categories:
   - Personal

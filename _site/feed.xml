@@ -5,12 +5,12 @@
     <description>N(one)-Stop Data Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jul 2019 11:30:07 +0700</pubDate>
-    <lastBuildDate>Fri, 12 Jul 2019 11:30:07 +0700</lastBuildDate>
+    <pubDate>Fri, 12 Jul 2019 11:49:41 +0700</pubDate>
+    <lastBuildDate>Fri, 12 Jul 2019 11:49:41 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>How I Created my own Personal Portfolio How I Created my ow</title>
+        <title>How I Created my own Personal Portfolio</title>
         <description>&lt;p&gt;This is my portfolio.&lt;/p&gt;
 
 &lt;p&gt;About a week ago, I discovered GitHub pages for the first time. It seemed to provide a handy way to make websites out of any repository without getting help from website builders like Wordpress and Wix. Because I always felt these website builders are not my favorite, I decided to create a customized blog. So here I am, writing in this brand-new environment.&lt;/p&gt;
