@@ -65,6 +65,10 @@ social:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -81,6 +85,18 @@ exclude:
   - Gemfile.lock
   - LICENSE.txt
   - README.md
+
+
+# Markdown Settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Pagination
 paginate: 7

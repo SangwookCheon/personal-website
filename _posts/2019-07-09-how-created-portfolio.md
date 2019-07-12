@@ -14,7 +14,7 @@ This is my portfolio.
 About a week ago, I discovered GitHub pages for the first time. It seemed to provide a handy way to make websites out of any repository without getting help from website builders like Wordpress and Wix. Because I always felt these website builders are not my favorite, I decided to create a customized blog. So here I am, writing in this brand-new environment.
 
 ![](/in-post-images/Screen Shot 2019-07-11 at 16.00.06.png)
-*The main page of GitHub pages. Making a customized website was more complicated than a scroll to the bottom*
+*The main page of GitHub pages. Making a customized website was more complicated than a scroll to the bottom.*
 
 To briefly explain, this blog will be a one-stop website where I document any new Data Science skills, personal projects, and my thoughts. Just like any blogger, I want to keep track of what I do so that I will be able to roughly estimate what I did at a certain point in time.
 
@@ -59,3 +59,19 @@ I encountered a lot of unexpected problems due to my lack of experience in web d
 Building a Jekyll website was one of the things I had to struggle with to be proficient. I had to have a certain level of knowledge to confidently and safely tinker with code located deep down in the file tree. I think getting this foundation is the hardest or maybe the most tiresome process.
 
 Data Science should be no different, as I must be able to clean and process any form of data so that I can develop models on top. Surfing on the web is an inevitable process awaiting in front of me. Looking ahead, now I am going to go ahead and set the foundation.
+
+
+```python
+print('Hello')
+def function():
+  list = enumerate(range(1, i))
+
+for i in range(1, 6):
+  print('Hello')
+```
+
+```sql
+select * from table where ID between (4 and 6)
+```
+
+> This is blockquote. Thank you for being here. I appreciate your help. Now, let's get on to business. Who is here to tell me that?

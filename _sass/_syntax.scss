@@ -1,253 +1,23 @@
-/**
- * Base Variables
- */
-
- @import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
- @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
- @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
-$font-header: 'Poppins', sans-serif;
-$font-body: 'Work Sans', sans-serif;
-$font-post: 'Work Sans', sans-serif;
-
-$color-alpha: #F59835;
-$color-alpha--light: #f5f3ef;
-
-$color-black: #1B2A3D;
-$color-grey: #ffffff;
-$color-white: #fff;
-
-$mq-xs: 20em;
-$mq-sm: 30em;
-$mq-md: 54em;
-$mq-lg: 64em;
-$mq-xl: 76.5em;
-$mq-xxl: 114em;
-
-/* syntax highlighting (base16) */
-$base00: #263238 !default;
-$base01: #2e3c43 !default;
-$base02: #314549 !default;
-$base03: #546e7a !default;
-$base04: #b2ccd6 !default;
-$base05: #eeffff !default;
-$base06: #eeffff !default;
-$base07: #ffffff !default;
-$base08: #f07178 !default;
-$base09: #f78c6c !default;
-$base0a: #ffcb6b !default;
-$base0b: #c3e88d !default;
-$base0c: #89ddff !default;
-$base0d: #82aaff !default;
-$base0e: #c792ea !default;
-$base0f: #ff5370 !default;
-
-/**
- * Base Settings/Overwrite Normalize
- */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: $font-body;
-  font-feature-settings: 'liga' 0;
-  font-size: 100%;
-  line-height: 1.6;
-
-  @media (min-width: $mq-xs) {
-    font-size: 102.5%;
-  }
-
-  @media (min-width: $mq-sm) {
-    font-size: 105%;
-  }
-
-  @media (min-width: $mq-md) {
-    font-size: 107.5%;
-  }
-
-  @media (min-width: $mq-lg) {
-    font-size: 110%;
-  }
-
-  @media (min-width: $mq-xl) {
-    font-size: 115%;
-  }
-
-  @media (min-width: $mq-xxl) {
-    font-size: 125%;
-  }
-}
-
-// img {
-//   -webkit-filter: brightness(10%);
-//   filter: brightness(10%);
-// }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  color: $color-black;
-  font-family: $font-header;
-  line-height: 1.1;
-}
-
-h1 {
-  $fontSize: 2.5em;
-
-  @media (min-width: $mq-md) {
-    font-size: $fontSize;
-  }
-
-  @media (min-width: $mq-xl) {
-    font-size: $fontSize + 0.5em;
-  }
-}
-
-mark {
-  background-color: $color-alpha;
-  color: $color-black;
-  padding: 5px
-}
-
-h2 {
-  margin-bottom: 0.25em;
-
-  font-size: 1.75em;
-
-  @media (min-width: $mq-md) {
-    font-size: 2em;
-  }
-}
-
-h3 {
-  margin-bottom: 0.1em;
-
-  font-size: 1.5em;
-}
-
-h4 {
-  margin-bottom: 0.1em;
-
-  font-size: 1.25em;
-}
-
-p {
-  margin: 0 0 0.75em;
-}
-
-a {
-  color: $color-black;
-  text-decoration: none;
-  transition: color 0.4s ease-in-out;
-
-  &:hover,
-  &:active,
-  &:focus {
-    color: $color-alpha;
-  }
-}
-
-figure {
-  margin: 0;
-}
-
-img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
-//
-// blockquote {
-//   margin: 2em 0;
-//
-//   font-family: $font-header;
-//   font-weight: 700;
-//   font-size: 1.25em;
-// }
-
-blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
-  border-left: 0.5em solid $color-alpha;
-
-  cite {
-    font-style: italic;
-
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
-}
-
-
-cite {
-  display: block;
-  margin-top: 0.125em;
-
-  font-family: $font-body;
-  font-weight: 400;
-  font-style: normal;
-
-  &:before {
-    content: "\2014 \0020";
-  }
-}
-
-ol, ul {
-  margin: 0;
-  padding: 0;
-}
-
-/**
- * Text Selection
- */
-::selection {
-  color: $color-white;
-  background-color: $color-alpha;
-  text-shadow: none;
-}
-
-/* code */
-
-tt,
-code,
-kbd,
-samp,
-pre {
-  font-family: monospace;
-}
-
-pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
-  orphans: 3;
-  widows: 3;
-  }
-
-p > code,
-a > code,
-li > code,
-figcaption > code,
-td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: 1.114em;
-  background: #efefef;
-  border-radius: 4px;
-
-  &:before,
-  &:after {
-    letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
-  }
-}
-
 /* ==========================================================================
    Syntax highlighting
    ========================================================================== */
+   /* syntax highlighting (base16) */
+   $base00: #263238 !default;
+   $base01: #2e3c43 !default;
+   $base02: #314549 !default;
+   $base03: #546e7a !default;
+   $base04: #b2ccd6 !default;
+   $base05: #eeffff !default;
+   $base06: #eeffff !default;
+   $base07: #ffffff !default;
+   $base08: #f07178 !default;
+   $base09: #f78c6c !default;
+   $base0a: #ffcb6b !default;
+   $base0b: #c3e88d !default;
+   $base0c: #89ddff !default;
+   $base0d: #82aaff !default;
+   $base0e: #c792ea !default;
+   $base0f: #ff5370 !default;
 
    div.highlighter-rouge,
    figure.highlight {
@@ -258,7 +28,7 @@ td > code {
      font-family: monospace;
      font-size: 1.114em;
      line-height: 1.8;
-     border-radius: 4px;
+     border-radius: 2px;
 
      > pre,
      pre.highlight {
