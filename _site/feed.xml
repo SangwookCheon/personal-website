@@ -5,12 +5,12 @@
     <description>N(one)-Stop Data Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jul 2019 09:23:08 +0700</pubDate>
-    <lastBuildDate>Fri, 12 Jul 2019 09:23:08 +0700</lastBuildDate>
+    <pubDate>Fri, 12 Jul 2019 11:19:29 +0700</pubDate>
+    <lastBuildDate>Fri, 12 Jul 2019 11:19:29 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>How I Created my own Personal Portfolio</title>
+        <title>How I Created my own Personal Portfolio How I Created my ow</title>
         <description>&lt;p&gt;This is my portfolio.&lt;/p&gt;
 
 &lt;p&gt;About a week ago, I discovered GitHub pages for the first time. It seemed to provide a handy way to make websites out of any repository without getting help from website builders like Wordpress and Wix. Because I always felt these website builders are not my favorite, I decided to create a customized blog. So here I am, writing in this brand-new environment.&lt;/p&gt;
@@ -65,21 +65,6 @@
 &lt;p&gt;Building a Jekyll website was one of the things I had to struggle with to be proficient. I had to have a certain level of knowledge to confidently and safely tinker with code located deep down in the file tree. I think getting this foundation is the hardest or maybe the most tiresome process.&lt;/p&gt;
 
 &lt;p&gt;Data Science should be no different, as I must be able to clean and process any form of data so that I can develop models on top. Surfing on the web is an inevitable process awaiting in front of me. Looking ahead, now I am going to go ahead and set the foundation.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ID&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;between&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is blockquote. Thank you for being here. I appreciate your help. Now, let’s get on to business. Who is here to tell me that?&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 09 Jul 2019 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2019/07/09/how-created-portfolio/</link>

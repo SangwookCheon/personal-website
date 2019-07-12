@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "How I Created my own Personal Portfolio"
+title: "How I Created my own Personal Portfolio How I Created my ow"
 date: 2019-07-09
 categories:
   - Personal
@@ -59,19 +59,3 @@ I encountered a lot of unexpected problems due to my lack of experience in web d
 Building a Jekyll website was one of the things I had to struggle with to be proficient. I had to have a certain level of knowledge to confidently and safely tinker with code located deep down in the file tree. I think getting this foundation is the hardest or maybe the most tiresome process.
 
 Data Science should be no different, as I must be able to clean and process any form of data so that I can develop models on top. Surfing on the web is an inevitable process awaiting in front of me. Looking ahead, now I am going to go ahead and set the foundation.
-
-
-```python
-print('Hello')
-def function():
-  list = enumerate(range(1, i))
-
-for i in range(1, 6):
-  print('Hello')
-```
-
-```sql
-select * from table where ID between (4 and 6)
-```
-
-> This is blockquote. Thank you for being here. I appreciate your help. Now, let's get on to business. Who is here to tell me that?

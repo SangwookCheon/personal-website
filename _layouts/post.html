@@ -2,20 +2,43 @@
 layout: default
 ---
 <style media="screen">
-  #particles-js {
-    width: 100%;
 
-    height: 30em;
-    /* height: calc(var(--vh, 1vh) * 100); */
-    background-image: url('{{ page.image }}');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 50%;
+#particles-js {
+  width: 100%;
+  height: 35em;
+  background-image: url('{{ page.image }}');
+  background-color: $color-black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+  animation: fade-in 3s both;
+  @extend %overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
 
-    @media not all and (hover:hover) {
-        height: var(--app-height);
-    }
+  @media not all and (hover:hover) {
+      height: var(--app-height);
   }
+
+  &:after {
+    @extend %overlay;
+  }
+
+  &__img {
+    animation: fade-in 2s both;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 
   p {
     font-size: 1.114em;
@@ -30,48 +53,15 @@ layout: default
 
   .centered {
     position: absolute;
-    top: 15em;
+    top: 17.5em;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  .down {
-    color: #FFF;
-    position: absolute;
-    bottom: 10%;
-    width: 100%;
-    margin: 0 auto;
-    /* display: block; */
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-  }
-
-  .icon {
-    color: #FFF;
-    text-align: center;
-    bottom: 10%;
-    font-size: 30px;
-    cursor: pointer;
-    position: absolute;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    /* width: 100px; */
-    height: 100px;
-    fill: #fff;
-    -webkit-animation: pulse 1s infinite;
-    animation: pulse 1s infinite;
-    &:hover {
-      color: #9f8f68;
-    }
-    &:active {
-      color: #9f8f68;
-    }
-  }
+  .bottom-left {
+  position: absolute;
+  top: 40%;
+  left: 10%;
 }
 
   html {
@@ -81,36 +71,31 @@ layout: default
 </style>
 
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  <!-- <link rel="stylesheet" href="/style.css/"> -->
-  <div id='particles-js'></div>
-  <div class = 'container'>
-  <header>
-    <a class="nav nav--white" href="{{ site.baseurl }}/">
-      <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
-    </a>
-    <div class='centered'>
-    <span style="color:#ffffff"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
-    <h1 style="font-family: $font-header;color:#ffffff" itemprop="name headline">{{ page.title }}</h1>
-    <h1 style="font-family: $font-header; color:#F59835" itemprop="name headline">By Sangwook Cheon</h1>
-    {% if page.categories.size > 0 %}
-      <span style="color:#ffffff">Posted in
-        {% for category in page.categories %}
+ <!-- <link rel="stylesheet" href="/style.css/"> -->
+ <header class="rellax" data-rellax-speed="-4">
+   <div id='particles-js'></div>
+   <div class = 'container'>
+      <a class="nav nav--white" href="{{ site.baseurl }}/">
+        <i class="fa fa-lg fa-arrow-left"></i>
+        <span>Back to Posts</span>
+      </a>
+      <div class='centered'>
+        <span style="color:#ffffff"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+        <h1 style="font-family: $font-header;color:#ffffff" itemprop="name headline">{{ page.title }}</h1>
+        <h2 style="font-family: $font-header; color:#F59835" itemprop="name headline">By Sangwook Cheon</h2>
+        {% if page.categories.size > 0 %}
+        <span style="color:#ffffff">Posted in
+          {% for category in page.categories %}
           <a class="nav--white" href="{{ site.baseurl }}/category/{{ category | downcase | slugify }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}
-        {% endfor %}
-      </span>
-    {% endif %}
-    <span></span>
-    <br>
-    <!-- <a class="icon" href="#post" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> -->
-
-  </div>
-  <!-- <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure> -->
-  </header>
-  </div>
+          {% endfor %}
+        </span>
+        {% endif %}
+        <span></span>
+    </header>
 
   <section class="section-padding bg-grey" itemprop="articleBody">
     <div class="post">
+
       {{ content }}
 
       {% include disqus.html %}
