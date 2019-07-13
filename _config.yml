@@ -99,7 +99,7 @@ kramdown:
   enable_coderay: false
 
 # Pagination
-paginate: 7
+paginate: 20
 paginate_path: "/blog/page-:num"
 
 # Sass

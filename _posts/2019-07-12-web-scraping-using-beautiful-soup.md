@@ -7,7 +7,7 @@ categories:
   - Learn-DS
   - Obtaining-Data
 description: How to scrape Wikipedia page using Beautiful Soup library in Python.
-image:
+image: /images/roman-romashov-GRxTDmbsJRM-unsplash (1).jpg
 ---
 # About Beautiful Soup
 
