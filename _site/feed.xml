@@ -5,8 +5,8 @@
     <description>N(one)-Stop Data Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jul 2019 22:24:24 +0700</pubDate>
-    <lastBuildDate>Fri, 12 Jul 2019 22:24:24 +0700</lastBuildDate>
+    <pubDate>Sat, 13 Jul 2019 11:52:15 +0700</pubDate>
+    <lastBuildDate>Sat, 13 Jul 2019 11:52:15 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -117,13 +117,13 @@
 &lt;span class=&quot;c&quot;&gt;#preview ten rows of DataFrame&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;in-post-images/Screen Shot 2019-07-12 at 22.09.12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/in-post-images/Screen Shot 2019-07-12 at 22.09.12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The table is correctly loaded! We need to do one more step, which is to combine neighborhoods with same Postal Code into one row. So some of the postal codes will have multiple neighborhoods listed and separated by a comma.&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;postal_codes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PostalCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unique&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postal_codes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;in-post-images/Screen Shot 2019-07-12 at 22.12.19.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/in-post-images/Screen Shot 2019-07-12 at 22.12.19.png&quot; alt=&quot;&quot; /&gt;
 These are the unique Postal Codes.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#Set a new empty table with just column names.&lt;/span&gt;
@@ -140,7 +140,7 @@ These are the unique Postal Codes.&lt;/p&gt;
     &lt;span class=&quot;c&quot;&gt;#Add to the new dataframe&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;clean_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clean_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'PostalCode'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Borough'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;borough&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Neighborhood'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ignore_index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;in-post-images/Screen Shot 2019-07-12 at 22.16.09.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/in-post-images/Screen Shot 2019-07-12 at 22.16.09.png&quot; alt=&quot;&quot; /&gt;
 Now we can see that some postal codes now have a neighborhoods column with multiple names. The table is fully cleaned now, and ready to go. Sometimes it is useful to save this cleaned table as a csv to the local machine.&lt;/p&gt;
 
 &lt;h1 id=&quot;recap&quot;&gt;Recap&lt;/h1&gt;
@@ -152,6 +152,67 @@ Now we can see that some postal codes now have a neighborhoods column with multi
         <pubDate>Fri, 12 Jul 2019 00:00:00 +0700</pubDate>
         <link>http://localhost:4000/2019/07/12/web-scraping-using-beautiful-soup/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/07/12/web-scraping-using-beautiful-soup/</guid>
+        
+        
+        <category>Learn-DS</category>
+        
+        <category>Obtaining-Data</category>
+        
+      </item>
+    
+      <item>
+        <title>Adding Latitude and Longitude given a location using Geocoder library</title>
+        <description>&lt;h1 id=&quot;about-geocoder&quot;&gt;About Geocoder&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://geocoder.readthedocs.io/&quot;&gt;Geocoder&lt;/a&gt; is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this &lt;a href=&quot;https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/&quot;&gt;article&lt;/a&gt;. I will Latitude and Longitude coordinates to each Postal Code.&lt;/p&gt;
+
+&lt;p&gt;It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like &lt;a href=&quot;https://developers.google.com/maps/documentation/geocoding/start&quot;&gt;Google Geocoding API&lt;/a&gt;. For this task, using Geocoder library is enough.&lt;/p&gt;
+
+&lt;p&gt;First let’s import Geocoder library and other tools:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;geocoder&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/in-post-images/Screen Shot 2019-07-12 at 22.16.09.png&quot; alt=&quot;&quot; /&gt;
+Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.&lt;/p&gt;
+
+&lt;p&gt;We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.&lt;/p&gt;
+
+&lt;p&gt;I stored the clean data table as &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; by using &lt;code class=&quot;highlighter-rouge&quot;&gt;read_csv&lt;/code&gt; function of Pandas.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# initialize variable to None&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;postal_codes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'PostalCode'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tolist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now is the part where I loop until coordinates are derived from the &lt;code class=&quot;highlighter-rouge&quot;&gt;geocoder.google&lt;/code&gt; function, and then add it to the original table.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# loop until we get the coordinates&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;postal_codes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;geocoder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'{}, Toronto, Ontario'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latlng&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;latitude&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;longitude&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Latitude'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;latitude&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Longitude'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;longitude&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;#Re-initialize the variable.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lat_lng_coords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Doing this might take some time, because there is loading time when getting coordinates. When finished, now there is an updated table with two new columns, named &lt;code class=&quot;highlighter-rouge&quot;&gt;latitude&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;longitude&lt;/code&gt;, as shown below:
+&lt;img src=&quot;/in-post-images/Screen Shot 2019-07-13 at 11.45.23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;recap&quot;&gt;Recap&lt;/h1&gt;
+&lt;p&gt;Geocoder library can be used to get latitude and longitude values using a street address. This library is free-of-charge, but can sometimes be inconsistent in yielding results.&lt;/p&gt;
+
+&lt;p&gt;Getting coordinates is important in many applications, such as putting marks on trending places on a map and clustering places based on their latitude and longitude values.&lt;/p&gt;
+
+&lt;p&gt;Here is a &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/add_latlon.ipynb&quot;&gt;link to Jupyter Notebook&lt;/a&gt; for this article.&lt;/p&gt;
+
+&lt;p&gt;You can also learn about Foursquare API, a map-related API with many social features, by referring to &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jul 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/2019/07/12/geopy-adding-latitude-longitude/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/12/geopy-adding-latitude-longitude/</guid>
         
         
         <category>Learn-DS</category>

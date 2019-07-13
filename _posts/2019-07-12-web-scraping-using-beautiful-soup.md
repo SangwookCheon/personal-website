@@ -7,7 +7,7 @@ categories:
   - Learn-DS
   - Obtaining-Data
 description: How to scrape Wikipedia page using Beautiful Soup library in Python.
-image: none
+image:
 ---
 # About Beautiful Soup
 
@@ -119,14 +119,14 @@ data = pd.DataFrame(row_data, columns=['PostalCode', 'Borough', 'Neighborhood'])
 #preview ten rows of DataFrame
 data.head(10)
 ```
-![](in-post-images/Screen Shot 2019-07-12 at 22.09.12.png)
+![](/in-post-images/Screen Shot 2019-07-12 at 22.09.12.png)
 
 The table is correctly loaded! We need to do one more step, which is to combine neighborhoods with same Postal Code into one row. So some of the postal codes will have multiple neighborhoods listed and separated by a comma.
 ```python
 postal_codes = data.PostalCode.unique()
 print(postal_codes)
 ```
-![](in-post-images/Screen Shot 2019-07-12 at 22.12.19.png)
+![](/in-post-images/Screen Shot 2019-07-12 at 22.12.19.png)
 These are the unique Postal Codes.
 
 ```python
@@ -144,7 +144,7 @@ for code in postal_codes:
     #Add to the new dataframe
     clean_data = clean_data.append({'PostalCode': code, 'Borough': borough , 'Neighborhood': df}, ignore_index=True)
 ```
-![](in-post-images/Screen Shot 2019-07-12 at 22.16.09.png)
+![](/in-post-images/Screen Shot 2019-07-12 at 22.16.09.png)
 Now we can see that some postal codes now have a neighborhoods column with multiple names. The table is fully cleaned now, and ready to go. Sometimes it is useful to save this cleaned table as a csv to the local machine.
 
 # Recap
