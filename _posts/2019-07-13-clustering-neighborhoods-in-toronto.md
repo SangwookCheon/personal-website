@@ -94,7 +94,6 @@ for lat, lng, borough, neighborhood in zip(neighborhoods['Latitude'], neighborho
 map_toronto
 ```
 ![](/in-post-images/Screen Shot 2019-07-13 at 16.38.16.png)
-[View Map]()
 
 # Exploring one neighborhood
 
